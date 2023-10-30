@@ -1,0 +1,27 @@
+[
+  {
+    "arguments": [
+      "/opt/toolchains/dc/sh-elf/bin/sh-elf-gcc",
+      "-O2",
+      "-fomit-frame-pointer",
+      "-fno-builtin",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-I/opt/toolchains/dc/kos/include",
+      "-I/opt/toolchains/dc/kos/kernel/arch/dreamcast/include",
+      "-I/opt/toolchains/dc/kos/addons/include",
+      "-I/opt/toolchains/dc/kos/../kos-ports/include",
+      "-D_arch_dreamcast",
+      "-D_arch_sub_pristine",
+      "-Wall",
+      "-g",
+      "-c",
+      "-o",
+      "hello.o",
+      "hello.c"
+    ],
+    "directory": "/home/pc31754/dc-code/projects/hello",
+    "file": "/home/pc31754/dc-code/projects/hello/hello.c",
+    "output": "/home/pc31754/dc-code/projects/hello/hello.o"
+  }
+]
